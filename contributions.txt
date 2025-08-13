@@ -1,0 +1,14 @@
+Membre 1 – Alice Dupont :
+- Création du script Python d’importation CSV
+- Nettoyage et transformation des données
+- Rédaction du rapport technique
+ 
+Membre 2 – Karim Ben Ali :
+- Développement du dashboard avec Flask
+- Connexion à MongoDB Atlas
+- Documentation technique et schémas
+ 
+Membre 3 – Sarah Nguyen :
+- Tests unitaires et validation
+- Mise en place du workflow GitHub Actions
+- Rédaction du README
