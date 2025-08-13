@@ -1,14 +1,36 @@
-Membre 1 – Alice Dupont :
-- Création du script Python d’importation CSV
-- Nettoyage et transformation des données
-- Rédaction du rapport technique
- 
-Membre 2 – Karim Ben Ali :
-- Développement du dashboard avec Flask
-- Connexion à MongoDB Atlas
-- Documentation technique et schémas
- 
-Membre 3 – Sarah Nguyen :
-- Tests unitaires et validation
-- Mise en place du workflow GitHub Actions
-- Rédaction du README
+Membre 1 — Hanane
+Mission : Ingestion CSV & pipeline d’analyse initiale.
+Fichiers livrés :
+
+AnalyseurCsv.java
+
+LecteurCSV.java
+LecteurCsvSimple.java
+Actions clés :
+
+Définir l’interface LecteurCSV (encodage/séparateur, validation de schéma).
+
+Implémenter LecteurCsvSimple (parsing robuste, gestion erreurs/NA).
+
+Construire AnalyseurCsv (orchestration import → pré-analyse).
+Indicateurs de réussite : import reproductible sur plusieurs CSV, logs clairs, données prêtes pour la couche statistiques.
+
+Membre 2 — Abdennour
+Mission : Statistiques & génération de rapport.
+Fichiers livrés :
+
+Rapport.java 
+Statistique.java 
+StatistiqueColonne.java
+Actions clés :
+
+Développer Statistique/StatistiqueColonne (min/max/moyenne, comptages, cohérence).
+
+Générer le rapport avec Rapport.java (mise en forme, export).
+
+Exécuter/valider le flux via Main (test de bout en bout).
+Indicateurs de réussite : mesures correctes sur jeux tests, rapport exporté sans erreur, README d’exécution à jour.
+
+Interfaces & dépendances
+Flux cible : LecteurCSV → AnalyseurCsv → Statistique(Colonne) → Rapport.
+Contrat : schéma des champs documenté et stable ; test d’intégration à chaque changement.
