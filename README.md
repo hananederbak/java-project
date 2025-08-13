@@ -1,4 +1,4 @@
-# java-project
+# Java-project
 #Projet de Programmation Avancée – Analyse CSV contenant uniquement des valeurs numériques.
  
 **** Membres du Groupe****
