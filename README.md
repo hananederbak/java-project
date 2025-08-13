@@ -1,5 +1,5 @@
 # java-project
-#**Projet de Programmation Avancée – Analyse CSV contenant uniquement des valeurs numériques.**
+#Projet de Programmation Avancée – Analyse CSV contenant uniquement des valeurs numériques.
  
 **** Membres du Groupe****
 ***-DERBAK Hanane***
